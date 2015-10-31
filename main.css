@@ -1,0 +1,130 @@
+.demo-layout-transparent {
+  background: url("./images/dog1.jpg") center / cover;  
+  position: relative;
+ /*opacity: .5;*/
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: black;
+}
+
+.logo{
+	height: 100px;
+	width: 100px;
+
+}
+
+.icon{
+	padding: 25px;
+	
+}
+
+.demo-card-wide.mdl-card {
+  width: auto;
+  max-width: 700px;
+  min-width:300px;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.generalHeader{
+  color: #fff;
+  height: 300px;
+}
+
+.mainFooter{
+	border-radius: 8px;
+	color: white;
+  width: 100%;
+}
+
+.light{
+  height: 200px;
+  width: 200px;
+}
+
+.popUpLightbox{
+  position: relative;
+  top: 15%;
+  z-index: 10;
+  left: 25%;
+
+}
+
+
+.lightbox-card-wide.mdl-card {
+  width: 50%;
+  min-height: 300px;
+
+}
+.shadowLightbox{
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  opacity: .9;
+
+}
+
+.mdl-cell.mdl-cell--2-col {
+ /* background-color: grey;*/
+  height: auto;
+  opacity: .5;
+}
+
+.mdl-cell.mdl-cell--3-col {
+  background-color: rgba(128,128,128, .7);
+  height: auto;
+ /* opacity: .7;*/
+  border-radius: 10px;
+}
+
+.mdl-textfield__input{
+  text-align: center;
+  padding: 15px;
+
+}
+
+.intro{
+  background-color: #f4b415;
+  border-radius: 10px;
+}
+
+.logo1{
+  height: 95px;
+  width: 95px;
+  padding: 15px;
+}
+.logo2{
+  height:85px;
+  width: 85px;
+  padding: 10px;
+}
+
+.type{
+  color: grey;  
+}
+
+
+.pure-form.pure-form-aligned{
+  height: 750px;
+  text-align: center;
+  padding: 100px;
+  background: url("./images/dog1.jpg") center / cover; 
+
+}
+
+h6{
+  font-style: bold;
+  color: white;
+
+}
+#map{
+  height: 430px;
+  width: 430px;
+  margin: auto;
+  top: 30px;
+}
